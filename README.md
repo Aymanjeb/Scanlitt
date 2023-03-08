@@ -1,7 +1,8 @@
 # Scanlitt
-Django code of the mini-test
+Django code of the mini-test:
 
 User's Guide:
+
 Extracting Files from the Downloaded Project: The downloaded project is probably in a compressed format, such as a .zip or .tar.gz file. You will need to extract the files from the archive into a directory on your computer.
 1.	Install Python and Django: If you have not already done so, you need to install Python and Django on your computer. Python can be downloaded from the official website (https://www.python.org/downloads/), and Django can be installed using pip (the Python package manager). To install Django, open a command prompt or terminal window and run the pip install django command.
 2.	Navigate to the project directory: Open a command prompt or terminal window and navigate to the directory where you extracted the project files. This directory should contain a file named manage.py.
