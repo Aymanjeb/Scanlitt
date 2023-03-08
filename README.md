@@ -9,7 +9,7 @@ Extracting Files from the Downloaded Project: The downloaded project is probably
 
 2.	Navigate to the project directory: Open a command prompt or terminal window and navigate to the directory where you extracted the project files. This directory should contain a file named manage.py.
 
-3- Run the python command manage.py makemigrations
+3.  Run the python command manage.py makemigrations
 
 4.	Execute the migrate command by running the python command manage.py migrate
 
