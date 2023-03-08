@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">Delete User Profile</div>
+        <div class="card-body">
+          <p>Are you sure you want to delete "{{ profile.first_name }} {{ profile.last_name }}"?</p>
+          <form method="post">
+            {% csrf_token %}
+            <div class="form-group">
+              <input type="submit" class="btn btn-danger" value="Delete">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
