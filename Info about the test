@@ -1,0 +1,10 @@
+Problem encountered:
+On Firefox: When clicking on Logout, you can go back to the previous page by clicking on the back button (you see the list of users even if you are not logged out) but when refreshing, an error appears, which means that the user is logged out but the information is not updated. I thought of clearing the cache but apparently it doesn't work.
+On Chrome: Reverting after logging out is not allowed anymore.
+
+What I didn't have time to do:
+- Tell the administrator logging in that the credentials entered are not good.
+- It is possible to add an authentication for each user registered in the database without him being able to modify or delete items in the database. 
+
+Back to the test: 
+I didn't know Django at all, I had to see videos on edX to understand how to use it. Fortunately, it's in python, so I didn't have many problems with the syntax.
